@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.primary-button {
+    padding: 16px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #FF5959;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+header {
+    background-image: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(../media/images/donation14.webp);
+    height: 669px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+}
+
+.main-head {
+    font-size: 65px;
+    font-weight: 700;
+    padding: 174px 307px 0px;
+
+}
+
+.sub-head {
+    font-size: 18px;
+    padding: 20px 375px 30px;
+}
+
+.head-button {
+    padding-bottom: 175px;
+}
