@@ -95,9 +95,42 @@ header {
 }
 
 .plan {
-    margin-top: 130px;
-    color: #121212;
     text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 669px;
+
+}
+
+.title-plan {
     font-size: 45px;
     font-weight: 700;
+    margin-top: 130px;
+    color: #121212;
 }
+
+.plan ul {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-list li {
+    list-style-type: none;
+    width: 360px;
+    height: 352px;
+    margin-right: 24px;
+}
+
+.plan-list .food{
+    border-radius: 5px;
+background: rgba(79, 157, 166, 0.10);
+}
+.plan-list .shelter{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+}
+.plan-list .edu{
+    border-radius: 5px;
+background: #FFF4D6;
+}
+
