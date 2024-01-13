@@ -116,21 +116,43 @@ header {
 
 .plan-list li {
     list-style-type: none;
-    width: 360px;
-    height: 352px;
     margin-right: 24px;
 }
 
-.plan-list .food{
+.food {
     border-radius: 5px;
-background: rgba(79, 157, 166, 0.10);
-}
-.plan-list .shelter{
-    border-radius: 5px;
-    background: rgba(255, 89, 89, 0.10);
-}
-.plan-list .edu{
-    border-radius: 5px;
-background: #FFF4D6;
+    background: rgba(79, 157, 166, 0.10);
+    width: 360px;
+    height: 352px;
 }
 
+.shelter {
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    width: 360px;
+    height: 352px;
+}
+
+.edu {
+    border-radius: 5px;
+    background: #FFF4D6;
+    width: 360px;
+    height: 352px;
+}
+
+.plan-icon {
+    padding: 62px 280px 0px 23px;
+}
+
+.p-title {
+    padding: 30px 133px 16px 23px;
+    font-size: 20px;
+    color: #121212;
+    text-align: left;
+}
+
+.p-para {
+    text-align: left;
+    padding: 0px 22px 54px 23px;
+    color: #707070;
+}
