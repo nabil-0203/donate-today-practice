@@ -55,6 +55,7 @@ header {
 
 .para-today {
     color: #707070;
+    text-align: center;
     font-size: 18px;
     padding: 20px 375px 50px 374px;
 
@@ -166,7 +167,7 @@ header {
     /* height: 669px; */
 }
 
-.rp-content{
+.rp-content {
     margin-left: 157px;
     margin-top: 182.5px;
 }
@@ -175,4 +176,97 @@ header {
     width: 825px;
     height: 550px;
     margin-top: 110px;
+    margin-bottom: 47px;
+}
+
+.rp-head {
+    width: 492px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.rp-para {
+    width: 482px;
+    color: #707070;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.donate-button {
+    margin-top: 30px;
+}
+
+.left-pic {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    /* height: 669px; */
+    margin-bottom: 130px;
+}
+
+.update {
+    margin: 0 auto;
+    width: 1440px;
+    /* height: 669px; */
+}
+
+.update-title {
+    color: #121212;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.last-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* width: 1440px;
+    height: 669px; */
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+}
+
+.mail-box {
+    width: 275px;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    border: none;
+    margin-top: 76px;
+}
+
+.update-button {
+    width: 157px;
+    height: 52px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background: #FF5959;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 76px;
+}
+
+footer {
+    margin: 0 auto;
+    background: var(--Default-Black, #0B0D17);
+    width: 1440px;
+    height: 177px;
+    margin-top: 130px;
+}
+
+.foot-head{
+    color: #FF5959;
+    font-size: 29px;
+    padding: 43px 629px 24px 653px;
+}
+
+footer .foot-para{
+    color: var(--Text-Gray-300, #D9DBE1);
+    padding: 0px 661px 42px 685px;
+    font-size: 13px;
+
 }
