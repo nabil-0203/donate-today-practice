@@ -98,7 +98,7 @@ header {
     text-align: center;
     margin: 0 auto;
     width: 1440px;
-    height: 669px;
+    /* height: 669px; */
 
 }
 
@@ -112,6 +112,7 @@ header {
 .plan ul {
     display: flex;
     justify-content: center;
+    /* margin-bottom: 110px; */
 }
 
 .plan-list li {
@@ -155,4 +156,23 @@ header {
     text-align: left;
     padding: 0px 22px 54px 23px;
     color: #707070;
+}
+
+.right-pic {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    /* height: 669px; */
+}
+
+.rp-content{
+    margin-left: 157px;
+    margin-top: 182.5px;
+}
+
+.donate-pic {
+    width: 825px;
+    height: 550px;
+    margin-top: 110px;
 }
